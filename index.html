@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/4441966?s=280&v=4">
+</head>
+<body>
+    <h1>Rock - Paper - Scissors</h1>
+    <div id="gamewindow">
+        <h2>Scores</h2>
+        <div class="scoreboard">
+            <h2>You: <span id="playerscore">0</span></h2>
+            <h2>Computer: <span id="computerscore">0</span></h2>
+        </div>
+        <div class="choices">
+            <button id="rock" onclick="rockClicked()">
+                <img src="./images/rock.png" alt="">
+            </button>
+            <button id="scissor" onclick="scissorClicked()">
+                <img src="./images/scissors.png" alt="">
+            </button>
+            <button id="paper" onclick="paperClicked()"> 
+                <img src="./images/paper.png" alt="">
+            </button>
+        </div>
+        <h2 id="roundAnswer">Click any of the options to start the game</h2>
+        <h2>Round <span id="currentRound">1</span> of 5</h2>
+    </div>
+    <div id="resultwindow">
+        <h2>Final Scores</h2>
+        <div class="scoreboard">
+            <h2>You: <span id="playerFinalScore">2</span></h2>
+            <h2>Computer: <span id="computerFinalScore">3</span></h2>
+        </div>
+        <h2 id="verdict">You Lose!</h2>
+        <button id="replay" onclick="replay()">
+            <h3>Replay</h3>
+        </button>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+</html>
