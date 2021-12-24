@@ -7,7 +7,7 @@ Play: https://whyucode.github.io/odin-rock-paper-scissor/
 
 ### Tech Stack
 
-HTML5, CSS3
+HTML5, CSS3, Javascript
 
 
 ### Screenshots
