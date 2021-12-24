@@ -13,5 +13,5 @@ HTML5, CSS3
 ### Screenshots
 
 ![](./images/home.png)
-![](./images/win.png)
+![](./images/lose.png)
 

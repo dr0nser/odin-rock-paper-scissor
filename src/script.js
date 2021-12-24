@@ -12,6 +12,7 @@ let playerScore = 0, computerScore = 0, roundNumber = 1, totalRounds = 5;
         const playerFinalScore = document.getElementById("playerFinalScore");
         const computerFinalScore = document.getElementById("computerFinalScore");
         const verdict = document.getElementById("verdict");
+        const title = document.getElementById("title");
 
         const choices = ['rock', 'paper', 'scissor'];
 
@@ -52,6 +53,7 @@ let playerScore = 0, computerScore = 0, roundNumber = 1, totalRounds = 5;
                 verdict.innerHTML = 'Draw.'
             }
             resultwindow.style.display = 'block';
+            title.style.marginTop = '12vh';
         }
 
         function replay() {
