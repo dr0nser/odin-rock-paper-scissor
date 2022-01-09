@@ -1,44 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+:root {
+    --background: #040404;
+    --gray: #b6b6b6;
+}
 * {
     font-family: 'Shadows Into Light', cursive;
+    color: var(--gray);
 }
-
 body {
-    background-color: #040404;
-    color: #ebebeb;
+    background-color: var(--background);
 }
-
 h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 70px;
 }
-
 h2 {
     font-size: 3rem;
     text-align: center;
     margin: 1vh;
 }
-
 button {
-    background-color: #040404;
+    border: 1px solid var(--gray);
+    background-color: var(--background);
     padding: 1rem;
     cursor: pointer;
 }
-
 .scoreboard {
     width: 25vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-
 img {
     background-color: #040404;
     width: 150px;
     cursor: pointer;
 }
-
 .choices {
     margin: auto;
     margin-top: 8vh;
@@ -47,23 +44,22 @@ img {
     display: flex;
     justify-content: space-between;
 }
-
+.rock {
+    transform: rotate(90deg);
+}
 #resultwindow {
     display: none;
 }
-
 #replay {
     width: 100%;
     border: none;
     outline: none;
 }
-
 #replay > h3 {
     margin: auto;
     width: fit-content;
-    color: #ebebeb;
-    border: 1px solid #ebebeb;
-    font-size: 1.6rem;
+    border: 1px solid var(--gray);
+    font-size: 40px;
     padding: 5px 25px;
     border-radius: 20px;
 }
