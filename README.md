@@ -7,8 +7,14 @@ Live link: [Play](https://whyucode.github.io/odin-rock-paper-scissor/)
 
 ### Tech Stack
 
-HTML5, CSS3, Javascript
+ - HTML5
+ - CSS3
+ - Javascript
 
+
+### What to do ?
+ 
+ - Play 1v1 matches with the Computer and see who wins 👀
 
 ### Screenshots
 
